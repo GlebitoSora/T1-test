@@ -1,5 +1,5 @@
 package com.sora.t1test.Controller;
-import com.sora.t1test.SortedCharacterMap;
+import com.sora.t1test.Response.SortedCharacterMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

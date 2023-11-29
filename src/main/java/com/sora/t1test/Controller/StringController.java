@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/test")
 public class StringController {
     @GetMapping("/result")
-    public SortedCharacterMap get_String(@RequestParam String str){
+    public SortedCharacterMap getResult(@RequestParam String str){
         Map<Character, Integer> unsortedMap = new HashMap<>();
         for (char key : str.toCharArray()) {
             if (unsortedMap.containsKey(key)) {

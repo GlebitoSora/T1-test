@@ -1,4 +1,4 @@
-package com.sora.t1_test;
+package com.sora.t1test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

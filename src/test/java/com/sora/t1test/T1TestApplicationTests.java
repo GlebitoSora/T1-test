@@ -1,4 +1,4 @@
-package com.sora.t1_test;
+package com.sora.t1test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

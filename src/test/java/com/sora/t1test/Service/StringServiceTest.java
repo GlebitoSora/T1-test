@@ -5,18 +5,18 @@ import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 public class StringServiceTest {
     StringService stringService = new StringService();
     @Test
     public void getResultTest(){
-        String result = "abbaac";
+        String result = "aaaaabcccc";
         Map<Character, Integer> map = new HashMap<>();
-        map.put('a', 3);
-        map.put('b', 2);
-        map.put('c', 1);
+        map.put('a', 5);
+        map.put('c', 4);
+        map.put('b', 1);
         SortedCharacterMap sortedCharacterMap = new SortedCharacterMap(map);
-        assertEquals(sortedCharacterMap, stringService.getResult(result));
+        SortedCharacterMap event = stringService.getResult(result);
+        assertEquals(sortedCharacterMap, event);
     }
 }

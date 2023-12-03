@@ -1,7 +1,7 @@
-package com.sora.t1test.Controller;
+package com.sora.t1test.controller;
 
-import com.sora.t1test.Response.SortedCharacterMap;
-import com.sora.t1test.Service.StringService;
+import com.sora.t1test.response.SortedCharacterMap;
+import com.sora.t1test.service.StringService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

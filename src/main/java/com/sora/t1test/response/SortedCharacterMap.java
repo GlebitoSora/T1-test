@@ -1,4 +1,4 @@
-package com.sora.t1test.Response;
+package com.sora.t1test.response;
 
 import lombok.Getter;
 import lombok.Setter;
